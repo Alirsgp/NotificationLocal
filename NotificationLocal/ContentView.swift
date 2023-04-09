@@ -23,8 +23,8 @@ struct ContentView: View {
 
             Button("Schedule Notification") {
                 let content = UNMutableNotificationContent()
-                content.title = "Exercise time!"
-                content.subtitle = "Go out for a run, do some push ups"
+                content.title = "Meeting"
+                content.subtitle = "Interview with Google starting soon!"
                 content.sound = UNNotificationSound.default
 
                 // show this notification five seconds from now
